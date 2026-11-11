@@ -1,0 +1,450 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Conoce Clinova, un sistema web de gestión clínica desarrollado con Angular, Spring Boot y PostgreSQL.">
+
+    <title>Clinova | Proyecto de Majo Diaz</title>
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =====================================
+         NAVEGACIÓN
+    ===================================== -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span>Majo<span class="logo-accent"> Diaz</span></span>
+            </a>
+
+            <a href="index.html#proyectos" class="btn btn-nav">
+                <i class="fa-solid fa-arrow-left"></i>
+                Volver al portafolio
+            </a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- =====================================
+             PRESENTACIÓN DE CLINOVA
+        ===================================== -->
+
+        <section class="section detail-hero">
+
+            <div class="container">
+
+                <a href="index.html#proyectos" class="detail-back">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Todos los proyectos
+                </a>
+
+                <div class="detail-heading">
+
+                    <span class="section-label">
+                        PROYECTO ACADÉMICO FULL STACK
+                    </span>
+
+                    <h1>Clino<span>va</span></h1>
+
+                    <p>
+                        Sistema web de gestión clínica que permite
+                        administrar pacientes, médicos, citas
+                        y diferentes procesos de atención médica
+                        desde una plataforma digital.
+                    </p>
+
+                    <div class="detail-tags">
+                        <span>Angular</span>
+                        <span>TypeScript</span>
+                        <span>Spring Boot</span>
+                        <span>Java</span>
+                        <span>PostgreSQL</span>
+                    </div>
+
+                    <a href="#informacion" class="btn btn-primary">
+                        Explorar proyecto
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+
+                </div>
+
+                <!-- IMAGEN PRINCIPAL -->
+                <div class="detail-preview">
+
+                    <img src="./clinova.png"
+                         alt="Captura de la página principal de Clinova">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SOBRE EL PROYECTO
+        ===================================== -->
+
+        <section class="section detail-section" id="informacion">
+
+            <div class="container">
+
+                <div class="detail-grid">
+
+                    <div class="detail-description">
+
+                        <span class="section-label">
+                            SOBRE EL PROYECTO
+                        </span>
+
+                        <h2>¿Qué es Clinova?</h2>
+
+                        <p>
+                            Clinova es un sistema web de gestión
+                            clínica desarrollado como proyecto
+                            académico de Ingeniería Informática.
+                        </p>
+
+                        <p>
+                            Su objetivo es facilitar la administración
+                            de información médica y optimizar
+                            procesos relacionados con pacientes,
+                            profesionales de salud y citas médicas.
+                        </p>
+
+                        <p>
+                            El sistema utiliza Angular para el
+                            frontend, Spring Boot para el backend
+                            y PostgreSQL para el almacenamiento
+                            de información.
+                        </p>
+
+                        <p>
+                            Cuenta con diferentes módulos
+                            conectados mediante servicios REST,
+                            permitiendo organizar la información
+                            desde una interfaz moderna y responsive.
+                        </p>
+
+                    </div>
+
+                    <!-- INFORMACIÓN TÉCNICA -->
+                    <div class="detail-info-card">
+
+                        <h3>Información del proyecto</h3>
+
+                        <div class="detail-info-item">
+                            <span>Tipo</span>
+                            <strong>Sistema de gestión clínica</strong>
+                        </div>
+
+                        <div class="detail-info-item">
+                            <span>Modalidad</span>
+                            <strong>Proyecto académico</strong>
+                        </div>
+
+                        <div class="detail-info-item">
+                            <span>Frontend</span>
+                            <strong>Angular y TypeScript</strong>
+                        </div>
+
+                        <div class="detail-info-item">
+                            <span>Backend</span>
+                            <strong>Java y Spring Boot</strong>
+                        </div>
+
+                        <div class="detail-info-item">
+                            <span>Base de datos</span>
+                            <strong>PostgreSQL</strong>
+                        </div>
+
+                        <div class="detail-info-item">
+                            <span>Arquitectura</span>
+                            <strong>API REST</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FUNCIONALIDADES
+        ===================================== -->
+
+        <section class="section detail-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        FUNCIONALIDADES
+                    </span>
+
+                    <h2>Módulos del <span>sistema</span></h2>
+
+                    <p>
+                        Clinova integra diferentes funcionalidades
+                        para la administración de procesos clínicos.
+                    </p>
+
+                </div>
+
+                <div class="detail-features-grid">
+
+                    <!-- PACIENTES -->
+                    <div class="detail-feature-card">
+
+                        <i class="fa-solid fa-users"></i>
+
+                        <h3>Gestión de pacientes</h3>
+
+                        <p>
+                            Registro, consulta y actualización
+                            de la información de los pacientes.
+                        </p>
+
+                    </div>
+
+                    <!-- MÉDICOS -->
+                    <div class="detail-feature-card">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <h3>Gestión de médicos</h3>
+
+                        <p>
+                            Administración de profesionales
+                            de salud y sus especialidades.
+                        </p>
+
+                    </div>
+
+                    <!-- CITAS -->
+                    <div class="detail-feature-card">
+
+                        <i class="fa-solid fa-calendar-check"></i>
+
+                        <h3>Citas médicas</h3>
+
+                        <p>
+                            Registro, programación y gestión
+                            de citas entre pacientes y médicos.
+                        </p>
+
+                    </div>
+
+                    <!-- HISTORIAS CLÍNICAS -->
+                    <div class="detail-feature-card">
+
+                        <i class="fa-solid fa-file-medical"></i>
+
+                        <h3>Historias clínicas</h3>
+
+                        <p>
+                            Registro y consulta de información
+                            clínica relacionada con la atención
+                            de los pacientes.
+                        </p>
+
+                    </div>
+
+                    <!-- FACTURACIÓN -->
+                    <div class="detail-feature-card">
+
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+
+                        <h3>Facturación</h3>
+
+                        <p>
+                            Gestión de facturas y seguimiento
+                            de estados de pago.
+                        </p>
+
+                    </div>
+
+                    <!-- USUARIOS -->
+                    <div class="detail-feature-card">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <h3>Usuarios y roles</h3>
+
+                        <p>
+                            Acceso al sistema mediante
+                            diferentes roles, como administrador,
+                            médico y recepcionista.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             ARQUITECTURA Y TECNOLOGÍAS
+        ===================================== -->
+
+        <section class="section detail-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        DESARROLLO FULL STACK
+                    </span>
+
+                    <h2>Tecnologías <span>utilizadas</span></h2>
+
+                    <p>
+                        Herramientas utilizadas para conectar
+                        la interfaz, la lógica del sistema
+                        y la base de datos.
+                    </p>
+
+                </div>
+
+                <div class="detail-features-grid">
+
+                    <div class="detail-feature-card">
+
+                        <i class="fa-brands fa-angular"></i>
+
+                        <h3>Angular</h3>
+
+                        <p>
+                            Desarrollo de la interfaz web,
+                            componentes, formularios y
+                            comunicación con el backend.
+                        </p>
+
+                    </div>
+
+                    <div class="detail-feature-card">
+
+                        <i class="fa-brands fa-java"></i>
+
+                        <h3>Spring Boot</h3>
+
+                        <p>
+                            Desarrollo de servicios REST,
+                            lógica de negocio y conexión
+                            con la base de datos.
+                        </p>
+
+                    </div>
+
+                    <div class="detail-feature-card">
+
+                        <i class="fa-solid fa-database"></i>
+
+                        <h3>PostgreSQL</h3>
+
+                        <p>
+                            Almacenamiento y gestión de
+                            la información del sistema
+                            mediante una base de datos relacional.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             VOLVER AL PORTAFOLIO
+        ===================================== -->
+
+        <section class="section detail-bottom">
+
+            <div class="container">
+
+                <h2>¿Quieres conocer más proyectos?</h2>
+
+                <p>
+                    Explora otros proyectos y tecnologías
+                    que he utilizado en desarrollo web.
+                </p>
+
+                <a href="index.html#proyectos"
+                   class="btn btn-primary">
+
+                    Ver mis proyectos
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================
+         FOOTER
+    ===================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span>Majo<span class="logo-accent"> Diaz</span></span>
+            </a>
+
+            <p>
+                Desarrollado con HTML, CSS y JavaScript.
+            </p>
+
+            <span>2026</span>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

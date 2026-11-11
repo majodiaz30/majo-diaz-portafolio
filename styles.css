@@ -1470,3 +1470,321 @@ h4 {
         width: 100%;
     }
 }
+
+
+/* =========================================
+   PÁGINAS DE DETALLES DE PROYECTOS
+========================================= */
+
+/* Presentación */
+.detail-hero {
+    padding-top: 140px;
+    padding-bottom: 65px;
+}
+
+.detail-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #aaa5c9;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 45px;
+    transition: color 0.3s ease;
+}
+
+.detail-back:hover {
+    color: #9475ff;
+}
+
+.detail-heading {
+    max-width: 760px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.detail-heading h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(48px, 7vw, 76px);
+    line-height: 1.1;
+    color: #f5f3ff;
+    margin: 18px 0 22px;
+}
+
+.detail-heading h1 span {
+    color: #9475ff;
+}
+
+.detail-heading > p {
+    color: #aaa5c9;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 620px;
+    margin: 0 auto 25px;
+}
+
+.detail-tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.detail-tags span {
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: rgba(148, 117, 255, 0.1);
+    border: 1px solid rgba(148, 117, 255, 0.2);
+    color: #c4b5fd;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Imagen principal */
+.detail-preview {
+    max-width: 1050px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #30285c;
+    background: #171332;
+    box-shadow: 0 25px 65px rgba(0, 0, 0, 0.25);
+}
+
+.detail-preview img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Información */
+.detail-section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 65px;
+    align-items: start;
+}
+
+.detail-description h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(28px, 4vw, 40px);
+    margin: 18px 0 25px;
+    color: #f5f3ff;
+}
+
+.detail-description p {
+    color: #aaa5c9;
+    line-height: 1.9;
+    margin-bottom: 18px;
+}
+
+/* Tarjeta de información */
+.detail-info-card {
+    padding: 30px;
+    background: #171332;
+    border: 1px solid #30285c;
+    border-radius: 18px;
+}
+
+.detail-info-card h3 {
+    color: #f5f3ff;
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+
+.detail-info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #30285c;
+}
+
+.detail-info-item:last-child {
+    border-bottom: none;
+}
+
+.detail-info-item span {
+    color: #aaa5c9;
+    font-size: 13px;
+}
+
+.detail-info-item strong {
+    color: #f5f3ff;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: right;
+}
+
+/* Funcionalidades */
+.detail-features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 45px;
+}
+
+.detail-feature-card {
+    padding: 28px;
+    background: #171332;
+    border: 1px solid #30285c;
+    border-radius: 18px;
+    transition: transform 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.detail-feature-card:hover {
+    transform: translateY(-5px);
+    border-color: #9475ff;
+}
+
+.detail-feature-card > i {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(148, 117, 255, 0.12);
+    color: #9475ff;
+    border-radius: 13px;
+    font-size: 21px;
+    margin-bottom: 22px;
+}
+
+.detail-feature-card h3 {
+    color: #f5f3ff;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.detail-feature-card p {
+    color: #aaa5c9;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* Sección final */
+.detail-bottom {
+    text-align: center;
+    padding: 80px 20px;
+    background: #120f27;
+}
+
+.detail-bottom h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #f5f3ff;
+    font-size: clamp(26px, 4vw, 38px);
+    margin-bottom: 15px;
+}
+
+.detail-bottom p {
+    color: #aaa5c9;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .detail-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .detail-features-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+
+    .detail-hero {
+        padding-top: 110px;
+        padding-bottom: 40px;
+    }
+
+    .detail-back {
+        margin-bottom: 30px;
+    }
+
+    .detail-heading {
+        margin-bottom: 35px;
+    }
+
+    .detail-heading > p {
+        font-size: 15px;
+    }
+
+    .detail-preview {
+        border-radius: 12px;
+    }
+
+    .detail-section {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .detail-info-card {
+        padding: 22px;
+    }
+
+    .detail-features-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .detail-feature-card {
+        padding: 23px;
+    }
+
+    .detail-bottom {
+        padding: 60px 20px;
+    }
+}
+
+
+/* =========================================
+   BOTONES DE PROYECTOS
+========================================= */
+
+.project-btn-outline {
+    background: transparent;
+    color: #c4b5fd;
+    border: 1px solid rgba(148, 117, 255, 0.4);
+}
+
+.project-btn-outline:hover {
+    background: rgba(148, 117, 255, 0.12);
+    border-color: #9475ff;
+    color: #ffffff;
+}
+
+/* Diseño adaptable */
+@media (max-width: 600px) {
+
+    .project-links {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .project-links .project-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-status {
+        justify-content: center;
+    }
+}
+
+
