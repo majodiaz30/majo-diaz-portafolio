@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Portafolio de desarrollo web. Diseño y desarrollo de páginas web modernas, responsivas y funcionales.">
+
+    <title>Majo Diaz | Desarrolladora Web Full Stack</title>
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         BARRA DE NAVEGACIÓN
+    ========================== -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span>Majo<span class="logo-accent"> Diaz</span></span>
+            </a>
+
+            <div class="nav-links" id="nav-links">
+
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+
+            </div>
+
+            <a href="#contacto" class="btn btn-nav">
+                Hablemos
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false"
+                aria-controls="nav-links">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             INICIO / HERO
+        ========================== -->
+
+        <section class="hero" id="inicio">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        <span class="status-dot"></span>
+                        Disponible para proyectos freelance
+                    </div>
+
+                    <p class="hero-intro">Hola, soy Majo Diaz</p>
+
+                    <h1>
+                        Transformo ideas en
+                        <span>experiencias digitales.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Desarrollo páginas web modernas, funcionales
+                        y adaptables a cualquier dispositivo.
+                        Me apasiona crear soluciones digitales
+                        que ayuden a personas y negocios.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#proyectos" class="btn btn-primary">
+                            Ver mis proyectos
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contacto" class="btn btn-outline">
+                            Contáctame
+                        </a>
+
+                    </div>
+
+                    <div class="hero-tech">
+
+                        <span>Tecnologías que utilizo</span>
+
+                        <div class="tech-icons">
+                            <i class="fa-brands fa-html5" title="HTML5"></i>
+                            <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+                            <i class="fa-brands fa-js" title="JavaScript"></i>
+                            <i class="fa-brands fa-angular" title="Angular"></i>
+                            <i class="fa-brands fa-java" title="Java"></i>
+                            <i class="fa-brands fa-python" title="Python"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="code-window">
+
+                        <div class="code-header">
+
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span>developer.js</span>
+
+                            <i class="fa-solid fa-code"></i>
+
+                        </div>
+
+                        <div class="code-body">
+
+                            <p><span class="code-purple">const</span> developer = {</p>
+
+                            <p class="indent">
+                                name: <span class="code-green">"Majo Diaz"</span>,
+                            </p>
+
+                            <p class="indent">
+                                role: <span class="code-green">"Web Developer"</span>,
+                            </p>
+
+                            <p class="indent">
+                                passion: <span class="code-green">"Technology"</span>,
+                            </p>
+
+                            <p class="indent">
+                                skills: [
+                            </p>
+
+                            <p class="indent-2">
+                                <span class="code-green">"HTML"</span>,
+                                <span class="code-green">"CSS"</span>,
+                            </p>
+
+                            <p class="indent-2">
+                                <span class="code-green">"JavaScript"</span>,
+                            </p>
+
+                            <p class="indent-2">
+                                <span class="code-green">"Angular"</span>,
+                                <span class="code-green">"Java"</span>
+                            </p>
+
+                            <p class="indent">],</p>
+
+                            <p class="indent">
+                                available:
+                                <span class="code-orange">true</span>
+                            </p>
+
+                            <p>};</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card floating-card-1">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Clean Code</span>
+                    </div>
+
+                    <div class="floating-card floating-card-2">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>Web Development</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SOBRE MÍ
+        ========================== -->
+
+        <section class="section about-section" id="sobre-mi">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">CONÓCEME</span>
+
+                    <h2>Sobre <span>mí</span></h2>
+
+                    <p>
+                        Mi nombre es Majo Diaz y soy estudiante de
+                        Ingeniería Informática.
+
+                        Tengo conocimientos en desarrollo frontend y backend,
+                        utilizando tecnologías como HTML, CSS, JavaScript,
+                        TypeScript, Angular, Java, Spring Boot y PostgreSQL.
+                    </p>
+
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <h3>
+                            Creando soluciones a través
+                            de la tecnología.
+                        </h3>
+
+                        <p>
+                            Soy estudiante de Ingeniería Informática
+                            con conocimientos en desarrollo web,
+                            programación y bases de datos.
+                        </p>
+
+                        <p>
+                            He desarrollado proyectos utilizando
+                            tecnologías frontend y backend,
+                            trabajando en interfaces modernas,
+                            sistemas de gestión y aplicaciones web.
+                        </p>
+
+                        <p>
+                            Mi objetivo es ayudar a negocios
+                            y emprendedores a tener presencia
+                            digital mediante soluciones funcionales,
+                            atractivas y fáciles de utilizar.
+                        </p>
+
+                        <a href="#contacto" class="text-link">
+                            Trabajemos juntos
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="about-highlights">
+
+                        <div class="highlight-card">
+
+                            <i class="fa-solid fa-laptop-code"></i>
+
+                            <h4>Desarrollo web</h4>
+
+                            <p>
+                                Sitios modernos, responsivos
+                                y funcionales.
+                            </p>
+
+                        </div>
+
+                        <div class="highlight-card">
+
+                            <i class="fa-solid fa-database"></i>
+
+                            <h4>Bases de datos</h4>
+
+                            <p>
+                                Diseño y gestión de información
+                                con PostgreSQL.
+                            </p>
+
+                        </div>
+
+                        <div class="highlight-card">
+
+                            <i class="fa-solid fa-layer-group"></i>
+
+                            <h4>Aplicaciones completas</h4>
+
+                            <p>
+                                Integración de frontend,
+                                backend y bases de datos.
+                            </p>
+
+                        </div>
+
+                        <div class="highlight-card">
+
+                            <i class="fa-solid fa-mobile-screen"></i>
+
+                            <h4>Diseño responsive</h4>
+
+                            <p>
+                                Experiencias adaptadas
+                                a celulares y computadores.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HABILIDADES
+        ========================== -->
+
+        <section class="section skills-section" id="habilidades">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">TECNOLOGÍAS</span>
+
+                    <h2>Mis <span>habilidades</span></h2>
+
+                    <p>
+                        Herramientas y tecnologías que utilizo
+                        para desarrollar soluciones digitales.
+                    </p>
+
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <span>Frontend</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <span>Frontend</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <span>Frontend</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-angular"></i>
+                        <h3>Angular</h3>
+                        <span>Frontend</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-java"></i>
+                        <h3>Java</h3>
+                        <span>Backend</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python"></i>
+                        <h3>Python</h3>
+                        <span>Programación</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>PostgreSQL</h3>
+                        <span>Base de datos</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-server"></i>
+                        <h3>Spring Boot</h3>
+                        <span>Backend</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROYECTOS
+        ========================== -->
+
+        <section class="section projects-section" id="proyectos">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">MI TRABAJO</span>
+
+                    <h2>Proyectos <span>destacados</span></h2>
+
+                    <p>
+                        Algunos proyectos que he desarrollado
+                        utilizando diferentes tecnologías.
+                    </p>
+
+                </div>
+
+                <div class="projects-grid">
+
+
+                    <!-- =====================================
+     PROYECTO IA HUB
+===================================== -->
+
+                    <article class="project-card">
+
+                        <div class="project-image project-ia">
+
+                            <img src="img/ia-hub.png" alt="Página principal de IA Hub" loading="lazy">
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <h3>IA Hub</h3>
+
+                            <p>
+                                Plataforma web para descubrir,
+                                explorar y comparar herramientas
+                                de inteligencia artificial.
+                            </p>
+
+                            <div class="project-links">
+
+                                <a href="https://ia-hub-bice.vercel.app/" target="_blank" rel="noopener noreferrer">
+
+                                    Ver proyecto
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- =====================================
+     PROYECTO CLINOVA
+===================================== -->
+
+                    <article class="project-card">
+
+                        <div class="project-image project-clinova">
+
+                            <img src="img/clinova.png" alt="Página principal de Clinova" loading="lazy">
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-tags">
+                                <span>Angular</span>
+                                <span>Spring Boot</span>
+                                <span>PostgreSQL</span>
+                            </div>
+
+                            <h3>Clinova</h3>
+
+                            <p>
+                                Sistema web de gestión clínica
+                                con módulos de pacientes, médicos,
+                                citas e historias clínicas.
+                            </p>
+
+                            <div class="project-links">
+
+                                <span class="project-status">
+                                    Proyecto académico
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICIOS
+        ========================== -->
+
+        <section class="section services-section" id="servicios">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">LO QUE OFREZCO</span>
+
+                    <h2>Mis <span>servicios</span></h2>
+
+                    <p>
+                        Soluciones digitales para negocios,
+                        emprendedores y proyectos personales.
+                    </p>
+
+                </div>
+
+                <div class="services-grid">
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+
+                        <h3>Desarrollo de páginas web</h3>
+
+                        <p>
+                            Creación de páginas informativas
+                            modernas y funcionales para negocios
+                            y emprendimientos.
+                        </p>
+
+                    </div>
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+
+                        <h3>Diseño responsive</h3>
+
+                        <p>
+                            Adaptación de páginas web para
+                            ofrecer una buena experiencia
+                            en celulares, tablets y computadores.
+                        </p>
+
+                    </div>
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h3>Corrección y mejoras web</h3>
+
+                        <p>
+                            Corrección de errores visuales,
+                            mejoras de interfaces y ajustes
+                            de funcionalidades web.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACTO
+        ========================== -->
+
+        <section class="section contact-section" id="contacto">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <span class="section-label">
+                        ¿TIENES UN PROYECTO?
+                    </span>
+
+                    <h2>
+                        Hagamos realidad
+                        <span>tu próxima idea.</span>
+                    </h2>
+
+                    <p>
+                        ¿Necesitas una página web o ayuda
+                        con un proyecto digital?
+                        Cuéntame qué necesitas.
+                    </p>
+
+                    <div class="contact-actions">
+
+
+
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mariajosediaz05%40gmail.com&su=Consulta%20sobre%20desarrollo%20web"
+                            target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+
+                            <i class="fa-solid fa-envelope"></i>
+                            Enviarme un correo
+
+                        </a>
+
+
+
+                    </div>
+
+                    <p class="contact-note">
+                        Disponible para proyectos freelance
+                        de desarrollo web y colaboración remota.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span>Mi<span class="logo-accent">Portafolio</span></span>
+            </a>
+
+            <p>
+                Desarrollado con HTML, CSS y JavaScript.
+            </p>
+
+            <span id="footer-year"></span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
