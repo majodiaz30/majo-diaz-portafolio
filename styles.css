@@ -1788,3 +1788,183 @@ h4 {
 }
 
 
+
+/* =========================================
+   NUEVO TEMA - ROJO CARMESÍ
+========================================= */
+
+:root {
+    --bg: #0b0b10;
+    --bg-soft: #111118;
+    --surface: #191922;
+    --surface-hover: #24232e;
+
+    --text: #f8f8fc;
+    --muted: #a9a9bb;
+
+    --accent: #ff3655;
+    --accent-strong: #e11d48;
+    --accent-soft: rgba(255, 54, 85, 0.12);
+
+    --border: rgba(255, 255, 255, 0.09);
+}
+
+/* Navegación */
+.btn-nav {
+    color: #ff9aaa;
+    border-color: rgba(255, 54, 85, 0.25);
+}
+
+/* Portada */
+.hero {
+    background:
+        radial-gradient(
+            ellipse at 75% 40%,
+            rgba(255, 54, 85, 0.15),
+            transparent 48%
+        ),
+        var(--bg);
+}
+
+.hero h1 span {
+    background: linear-gradient(
+        110deg,
+        #ff9aaa,
+        #ff3655,
+        #ff744f
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-badge {
+    color: #ff9aaa;
+    border-color: rgba(255, 54, 85, 0.25);
+}
+
+/* Ventana de código */
+.code-window {
+    border-color: rgba(255, 54, 85, 0.25);
+    box-shadow:
+        0 25px 70px rgba(0, 0, 0, 0.3),
+        0 0 65px rgba(255, 54, 85, 0.1);
+}
+
+.code-purple {
+    color: #ff8a9a;
+}
+
+/* Tarjetas */
+.highlight-card:hover,
+.project-card:hover,
+.service-card:hover {
+    border-color: rgba(255, 54, 85, 0.45);
+}
+
+/* Etiquetas de proyectos */
+.project-tags span {
+    color: #ff9aaa;
+}
+
+/* Funcionalidades de proyectos */
+.project-features {
+    background: rgba(255, 54, 85, 0.07);
+    border-color: rgba(255, 54, 85, 0.17);
+}
+
+.project-features li i {
+    color: #ff647d;
+}
+
+/* Botones de proyectos */
+.project-links a.project-btn {
+    background: var(--accent);
+    color: #ffffff;
+}
+
+.project-links a.project-btn:hover {
+    background: var(--accent-strong);
+    color: #ffffff;
+    gap: 10px;
+}
+
+.project-links a.project-btn-outline {
+    background: transparent;
+    color: #ff9aaa;
+    border: 1px solid rgba(255, 54, 85, 0.45);
+}
+
+.project-links a.project-btn-outline:hover {
+    background: rgba(255, 54, 85, 0.12);
+    border-color: var(--accent);
+    color: #ffffff;
+}
+
+/* Estado de Clinova */
+.project-status {
+    background: rgba(255, 54, 85, 0.1);
+    border-color: rgba(255, 54, 85, 0.2);
+    color: #ff9aaa;
+}
+
+/* Contacto */
+.contact-box {
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(255, 54, 85, 0.17),
+            transparent 45%
+        ),
+        var(--surface);
+
+    border-color: rgba(255, 54, 85, 0.25);
+}
+
+.btn-primary:hover,
+.contact-actions .btn-primary:hover {
+    box-shadow: 0 12px 35px rgba(255, 54, 85, 0.3);
+}
+
+/* =========================================
+   PÁGINAS DE DETALLES
+========================================= */
+
+.detail-back:hover,
+.detail-heading h1 span {
+    color: var(--accent);
+}
+
+.detail-tags span {
+    background: rgba(255, 54, 85, 0.1);
+    border-color: rgba(255, 54, 85, 0.2);
+    color: #ff9aaa;
+}
+
+.detail-preview {
+    background: var(--surface);
+    border-color: rgba(255, 54, 85, 0.25);
+}
+
+.detail-info-card,
+.detail-feature-card {
+    background: var(--surface);
+    border-color: var(--border);
+}
+
+.detail-info-item {
+    border-bottom-color: var(--border);
+}
+
+.detail-feature-card:hover {
+    border-color: var(--accent);
+}
+
+.detail-feature-card > i {
+    background: rgba(255, 54, 85, 0.12);
+    color: var(--accent);
+}
+
+.detail-bottom {
+    background: var(--bg-soft);
+}
